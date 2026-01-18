@@ -4,72 +4,36 @@
   <meta charset="UTF-8">
   <title>Josh Elliott | Live Music Booking</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
   <style>
+    :root {
+      --cream: #f5f1ea;
+      --charcoal: #1e1812;
+      --warm-gray: #b6afa6;
+      --accent: #d4b483;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+      color: var(--cream);
+      background: var(--charcoal);
+    }
+
+    /* HERO */
     .hero {
-  position: relative;
-  min-height: 100vh;
-  background: url('heroshotsilversky.jpg') center / cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(30, 24, 18, 0.6);
-}
-
-.hero-content {
-  position: relative;
-  max-width: 720px;
-  padding: 40px;
-}
-
-.logo {
-  max-width: 160px;
-  margin-bottom: 24px;
-}
-
- <body>
-
-  <div class="hero">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <img src="whitelogo1.png" alt="Josh Elliott Logo" class="logo">
-
-      <h1>Josh Elliott</h1>
-      <h2>Singer • Guitarist • One-Man Band</h2>
-
-      <p>
-        Engaging live music for venues, private events, and gatherings that want a relaxed, feel-good atmosphere.
-      </p>
-
-      <a class="button" href="mailto:youremail@example.com">Book a Show</a>
-    </div>
-  </div>
-
-  <footer>
-    © 2026 Josh Elliott
-  </footer>
-
-<body>
-
-  <h1>Josh Elliott</h1>
-  <h2>Singer • Guitarist • One-Man Band</h2>
-  <p>
-    Engaging live music for venues, private events, and gatherings that want a relaxed, feel-good atmosphere.
-  </p>
-
-  <a class="button" href="mailto:youremail@example.com">Book a Show</a>
-  <a class="button secondary" href="https://youtube.com" target="_blank">Watch / Listen</a>
-
-  <footer>
-    © 2026 Josh Elliott
-  </footer>
-
-</body>
-</html>
-
-
+      position: relative;
+      min-height: 100vh;
+      background: url('heroshotsilversky.png') center / cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding:
